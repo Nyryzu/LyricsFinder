@@ -108,8 +108,8 @@ const data = await res.json() ;
 				<h2 class="text-center pb-3">Lyrics Finder</h2>
 				
 				<div class="row">
-					<div class="mb-3 mt-5">
-						<input type="text" class="form-control input-artist" value='J cole' placeholder="Enter artist name or song title..." bind:this={userInput}>
+					<div align="center">
+						<input style="width: 500px" type="text" class="form-control input-artist" placeholder="Enter artist name or song title..." bind:this={userInput}>
 					</div>
 				</div>
 				<div class="text-center">
@@ -132,6 +132,7 @@ const data = await res.json() ;
 				<h4 class="alert-heading text-center">Error!</h4>
 				<p class="text-center">Please check your input</p>
 			</div>
+            <footer style="padding:left:0%;">Made by Nyryzu(EEDCVP) 2021</footer>
 		</body>
 </main>
 
@@ -152,8 +153,8 @@ const data = await res.json() ;
 
     .error-box {
         display: none;
-        position: absolute;
-        top: 50%;
+        position: top;
+        top: 50% ;
         left: 50%;
         transform: translate(-50%,-50%);
         box-shadow: 3px 4px 5px rgba(0, 0, 0, .2);
